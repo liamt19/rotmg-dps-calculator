@@ -23,9 +23,9 @@
 				"type": "object"
 			},
 			"sources": [
-				"https://github.com/liamt19/rotmg-dps-calculator/blob/v5.9.0.1.0/assets/equip.xml",
+				"https://raw.githubusercontent.com/liamt19/rotmg-dps-calculator/refs/heads/v5.9.0.1.0/assets/equip.xml",
 				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/spiderDenObjects.xml",
-				"https://github.com/liamt19/rotmg-dps-calculator/blob/v5.9.0.1.0/assets/equipmentsets.xml"
+				"https://raw.githubusercontent.com/liamt19/rotmg-dps-calculator/refs/heads/v5.9.0.1.0/assets/equipmentsets.xml"
 			]
 		},
 		{
