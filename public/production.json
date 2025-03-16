@@ -45,10 +45,10 @@
 			"loader": "sprite-loader",
 			"sourceLoader": "url-to-text",
 			"settings": {
-				"atlasRoot": "https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/"
+				"atlasRoot": "https://raw.githubusercontent.com/liamt19/rotmg-dps-calculator-assets/refs/heads/main/assets/"
 			},
 			"sources": [
-				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/spritesheet.json"
+				"https://raw.githubusercontent.com/liamt19/rotmg-dps-calculator-assets/refs/heads/main/assets/spritesheet.json"
 			]
 		}
 	]
