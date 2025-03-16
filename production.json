@@ -1,0 +1,55 @@
+{
+	"name": "main",
+	"default": true,
+	"containers": [
+		{
+			"loader": "rotmg-loader",
+			"type": "players",
+			"sourceLoader": "url-to-text",
+			"settings": {
+				"readOnly": true,
+				"type": "object"
+			},
+			"sources": [
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/players.xml"
+			]
+		},
+		{
+			"loader": "rotmg-loader",
+			"type": "equipment",
+			"sourceLoader": "url-to-text",
+			"settings": {
+				"readOnly": true,
+				"type": "object"
+			},
+			"sources": [
+				"https://raw.githubusercontent.com/liamt19/rotmg-dps-calculator/refs/heads/v5.9.0.1.0/assets/equip.xml",
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/spiderDenObjects.xml",
+				"https://raw.githubusercontent.com/liamt19/rotmg-dps-calculator/refs/heads/v5.9.0.1.0/assets/equipmentsets.xml"
+			]
+		},
+		{
+			"loader": "rotmg-loader",
+			"type": "creeps",
+			"sourceLoader": "url-to-text",
+			"settings": {
+				"readOnly": true,
+				"type": "object"
+			},
+			"sources": [
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/xml/allies.xml"
+			]
+		},
+		{
+			"type": "sprites",
+			"loader": "sprite-loader",
+			"sourceLoader": "url-to-text",
+			"settings": {
+				"atlasRoot": "https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/"
+			},
+			"sources": [
+				"https://rotmg-mirror.github.io/rotmg-metadata/assets/production/atlases/spritesheet.json"
+			]
+		}
+	]
+}
